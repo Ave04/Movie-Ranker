@@ -26,7 +26,7 @@ from dotenv import load_dotenv
 import os
 
 # load env variables first
-load_dotenv(r'Enter-Path-Here')
+load_dotenv(r'Enter-your-path-here')
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 Bootstrap5(app)
