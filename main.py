@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 # pip install python-dotenv
 import os
 
-load_dotenv(r'C:\Users\vikas\Google Drive\Avish\Udemy\PythonBootcamp\Projects\day64\.env')
+load_dotenv(r'Enter-Path-Here')
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 Bootstrap5(app)
